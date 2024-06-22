@@ -40,7 +40,20 @@ button{
     min-width: 100px;
     font-size: 18px;
     color: rgb(106, 113, 168);
+    cursor: pointer;
 }
-#feedback, #guessesPrompt, #guessesCount{
+#feedback, #guessesPrompt, #guessesCount, #winsAndLosses{
     font-size: 25px;
+    margin-top: 15px;
+}
+#win, #loss{
+    padding: 10px;
+    border-radius: 10px;;
+    background-color: rgba(255, 255, 255, 0.618);
+}
+#win{
+    color: rgb(153, 255, 0);
+}
+#loss{
+    color: rgb(255, 0, 0);
 }
